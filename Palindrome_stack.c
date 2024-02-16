@@ -15,7 +15,7 @@ char pop(){
     char item;
     if(top==-1){
         printf("Stack empty\n");
-        //return '\0';
+        return '\0';
     }
     else{
         item=s[top--];
